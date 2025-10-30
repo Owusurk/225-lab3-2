@@ -2,7 +2,7 @@ pipeline {
     agent any 
 
     environment {
-        DOCKER_CREDENTIALS_ID = 'roseaw-dockerhub'
+        DOCKER_CREDENTIALS_ID = 'owusurk-dockerhub'
         DOCKER_IMAGE = 'cithit/owusurk'                                                 // <------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/Owusurk/225-lab3-2.git'                   // <------change this
